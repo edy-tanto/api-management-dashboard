@@ -22,7 +22,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        ...
+        <body className={fontSans.className}>{children}</body>
       </body>
     </html>
   );
