@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+import "@/app/globals.css";
 import { Inter as FontSans } from "next/font/google";
 
 import { cn } from "@/lib/utils";
@@ -22,7 +22,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        ...
+        {children}
       </body>
     </html>
   );
